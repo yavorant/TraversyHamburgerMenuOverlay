@@ -87,7 +87,7 @@
 
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
@@ -111,8 +111,8 @@
 .menu-wrap .menu > div {
   background-color: var(--overlay-color);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 300vw;
+  height: 300vw;
   display: flex;
   flex: none;
   align-items: center;
