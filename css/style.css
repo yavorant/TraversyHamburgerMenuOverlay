@@ -2,7 +2,7 @@
   --primary-color: rgba(13, 110, 139, 0.6);
   --secondary-color: rgba(229, 148, 0, 0.9);
   --overlay-color: rgba(24, 39, 51, 0.85);
-  --menu-speed: 0.75s;
+  --menu-speed: 3s;
 }
 
 * {
@@ -71,7 +71,6 @@ body {
   margin-top: 1rem;
   transition: opacity 1s ease-in-out;
   text-decoration: none;
-  border-radius: 1rem;
 }
 
 .btn:hover {
