@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -85,7 +87,7 @@
 
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: 1s;
+  transition-duration: 2s;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
@@ -116,7 +118,7 @@
   align-items: center;
   justify-content: center;
   transform: scale(0);
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
 }
 
 .menu-wrap .menu > div > div {
@@ -124,7 +126,7 @@
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
-  transition: opacity 0.4s ease;
+  transition: opacity 1s ease;
 }
 
 .menu-wrap .menu > div > div > ul > li {
